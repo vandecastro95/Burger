@@ -3,11 +3,11 @@ var mysql = require("mysql");
 require('dotenv').config();
 
 var connection = mysql.createConnection({
-  host: "localhost",
+  host: "us-cdbr-iron-east-01.cleardb.net",
   port: 3306,
-  user: "root",
-  password: process.env.DB_PASS,
-  database: "burgers_db"
+  user: "bb3cf74c577be2",
+  password: "bace32c0",
+  database: "heroku_43e60871f5e1fd9"
 });
 
 // Make connection.
